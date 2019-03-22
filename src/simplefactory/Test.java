@@ -10,5 +10,6 @@ public class Test {
         operation = OperationFactory.getOperation("/");
         System.out.println(operation.getResult(3, 0));
         System.out.println(operation.getResult(3, 1));
+
     }
 }
