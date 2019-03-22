@@ -1,10 +1,11 @@
-package chain.leaveflow;
+package filterchain.leaveflow;
 
 /**
  * 抽象领导类
  * Created by DB_BOY on 2019/3/22.
  */
 public abstract class AbstractLeader {
+    //方便模拟, 设置为public
     public AbstractLeader nextLeader;
 
     /**
