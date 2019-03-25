@@ -2,6 +2,10 @@ package filterchain.okchain;
 
 /**
  * 处理网络相关
+ * Network Interceptors
+ *
+ * Registering a network interceptor is quite similar. Call addNetworkInterceptor() instead of addInterceptor():
+ *
  * Created by DB_BOY on 2019/3/22.
  */
 public class NetworkInterceptor implements Interceptor {
